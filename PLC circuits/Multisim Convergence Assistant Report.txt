@@ -1,0 +1,59 @@
+Multisim Convergence Assistant Summary Report
+ 
+ Convergence Assistant Summary Report
+
+Outcome:
+
+	The simulation error was corrected successfully.
+
+Changes Made:
+
+	-Relative error tolerance (RELTOL) was changed to 1.0000e-02
+
+
+
+Multisim Convergence Assistant Log 
+ 
+Step 1: Verifying Error Scenario
+	...completed.
+
+Step 2: Setting parameter Integration Method (METHOD) to Gear 
+	Simulating...
+	 ...completed. Simulation error still occurs.
+
+Step 3: Setting parameter Initial Conditions to Set To Zero 
+	Simulating...
+	 ...completed. Simulation error still occurs.
+
+Step 4: Setting parameter Maximum Timestep (TMAX) to 1.0000e-04 
+	Simulating...
+	 ...completed. Simulation error still occurs.
+
+Step 5: Setting parameter Maximum Timestep (TMAX) to 1.0000e-03 
+	Simulating...
+	 ...completed. Simulation error still occurs.
+
+Step 6: Setting parameter Relative error tolerance (RELTOL) to 1.0000e-02 
+	Simulating...
+	 ...completed. Simulation error fixed.
+
+Step 7: Attempting rollback of Initial Conditions to Automatically Determine 
+	Simulating...
+	...Rollback successful.
+
+Step 8: Attempting rollback of Maximum Timestep (TMAX) to 1.0000e-05 
+	Simulating...
+	...Rollback successful.
+
+Step 9: Attempting rollback of Relative error tolerance (RELTOL) to 1.0000e-03 
+	Simulating...
+	...Error recurred - rollback unsuccessful.
+
+Step 10: Restoring value of Relative error tolerance (RELTOL) to 1.0000e-02 
+
+Step 11: Attempting rollback of Integration Method (METHOD) to Trapezoidal 
+	Simulating...
+	...Rollback successful.
+
+Convergence Assistant completed successfully.
+ 
